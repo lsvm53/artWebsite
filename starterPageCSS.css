@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+body h2{
+    font-size: 30px;
+}
+
+body ul{
+    list-style-type: none;
+    padding: 0px;
+    line-height: 35px;
+    font-size: 20px; 
+}
+
+header{
+    background-color: #bccbff;
+    text-align: center;
+}
+
+header h1{
+    font-size: 100px;
+    font-family: 'Oooh Baby', cursive;
+}
+
+header p{
+    font-size: 50px;
+    font-family: 'Oooh Baby', cursive;
+}
