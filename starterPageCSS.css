@@ -1,6 +1,7 @@
 body{
     margin: 0;
     text-align: center;
+    background-color: #bccbff;
 }
 
 body h2{
@@ -19,12 +20,6 @@ header{
     text-align: center;
 }
 
-header h1{
-    font-size: 100px;
-    font-family: 'Oooh Baby', cursive;
-}
-
-header p{
-    font-size: 50px;
-    font-family: 'Oooh Baby', cursive;
+header video {
+    width: 100%;
 }
