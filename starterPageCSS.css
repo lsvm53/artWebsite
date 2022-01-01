@@ -24,3 +24,10 @@ header video {
     width: 90%;
 }
 
+button {
+    border: none;
+    margin: 0px px;
+    padding: 0px 0px;
+    background-color: transparent;
+}
+
