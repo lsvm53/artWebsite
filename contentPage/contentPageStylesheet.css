@@ -1,0 +1,19 @@
+body {
+    margin: 0px auto;
+    background-color: black;
+    text-align: center;
+}
+
+header video {
+    width: 100%;
+    border: none;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+body button {
+    border: none;
+    margin: 0px px;
+    padding: 0px 0px;
+    background-color: transparent;
+}
