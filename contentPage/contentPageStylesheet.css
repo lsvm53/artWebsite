@@ -1,14 +1,12 @@
 body {
-    margin: 0px auto;
-    background-color: black;
-    text-align: center;
+    background-image: url("animated.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-header video {
-    width: 100%;
-    border: none;
-    margin: 0px 0px;
-    padding: 0px 0px;
+header h1 {
+    text-align: center;
 }
 
 body button {
@@ -17,3 +15,14 @@ body button {
     padding: 0px 0px;
     background-color: transparent;
 }
+
+
+
+#backgroundVideo {
+    position: fixed;
+    border: 0px transparent;
+    min-width: 100%;
+    min-height: 100%
+    
+}
+
