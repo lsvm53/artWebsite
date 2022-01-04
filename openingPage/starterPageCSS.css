@@ -1,11 +1,18 @@
 body{
     margin: 0;
     text-align: center;
-    background-color: #bccbff;
+    background-image: url("inurudumBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header h1{
+    margin: 0%;
 }
 
 body h2{
-    font-size: 30px;
+    margin: 0%;
 }
 
 body ul{
@@ -16,13 +23,11 @@ body ul{
 }
 
 header{
-    background-color: #bccbff;
+    background-color: transparent;
     text-align: center;
 }
 
-header video {
-    width: 90%;
-}
+
 
 button {
     border: none;
