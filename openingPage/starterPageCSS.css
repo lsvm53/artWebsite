@@ -3,24 +3,19 @@ body{
     text-align: center;
     background-image: url("inurudumBackground.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
 }
 
 body h1, h2{
     margin: 0%;
-}
-
-body ul{
-    list-style-type: none;
-    padding: 0px;
-    line-height: 35px;
-    font-size: 20px; 
+    width: 100%;
 }
 
 header{
     background-color: transparent;
     text-align: center;
+    width: 100%;
 }
 
 
