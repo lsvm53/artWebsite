@@ -1,9 +1,18 @@
-body {
+html {
     background-image: url("animated.png");
+
+    height: 100%;
+    width: 100%;
+
+
+    background-position: center;
     background-repeat: no-repeat;
+
     /* always ensures background takes full screen */
     background-size: 100% 100%;
+
     background-attachment: fixed;
+
 }
 
 body h1 {

@@ -1,30 +1,38 @@
-body{
-    margin: 0;
-    text-align: center;
+body {
     background-image: url("inurudumBackground.png");
+
+    height: 100%;
+    margin: 0;
+
+    background-position: center;
     background-repeat: no-repeat;
+
     background-size: 100% 100%;
+
     background-attachment: fixed;
-}
 
-body h1, h2{
-    margin: 0%;
-    width: 100%;
-}
-
-header{
-    background-color: transparent;
     text-align: center;
-    width: 100%;
+
+    
+    
 }
 
 
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+h1, h2{
+    width: 90%;
+    margin: auto;
+}
 
 button {
     border: none;
-    margin: 0px px;
-    padding: 0px 0px;
+    padding-top: auto;
     background-color: transparent;
+    margin: auto;
 }
 
 
