@@ -1,8 +1,13 @@
 html {
+    height: 100%;
+}
+
+
+body {
     background-image: url("animated.png");
 
     height: 100%;
-    width: 100%;
+    margin: 0%;
 
 
     background-position: center;
@@ -17,6 +22,12 @@ html {
 
 body h1 {
     text-align: center;
+    margin: 0 0;
+}
+
+h1 img {
+    height: 100%;
+    width: 60%;
 }
 
 .buttons button {
