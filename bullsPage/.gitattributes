@@ -1,3 +1,4 @@
 bullsBackground.png filter=lfs diff=lfs merge=lfs -text
 bullsJordan.png filter=lfs diff=lfs merge=lfs -text
 bullsJordanButton.png filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
