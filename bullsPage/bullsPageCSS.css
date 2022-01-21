@@ -1,3 +1,4 @@
+/* HTML AND BODY CSS */
 html {
 
     background-image: url("bullsBackground.png");
@@ -29,6 +30,11 @@ body h1 {
     text-align: center;
 }
 
+/* HTML AND BODY CSS */
+
+
+/* Bulls Legends CSS */
+
 .bullsLegends {
     text-align: center;
     margin-top: 80px;
@@ -43,9 +49,14 @@ body h1 {
     width: 300px;
 }
 
+
 .bullsPieces button img {
     height: 100%;
     width: auto;
+}
+
+.bullsLegends {
+    margin-bottom: 40px;
 }
 
 .bullsLegends #jordanButton img {
@@ -64,3 +75,32 @@ body h1 {
 .bullsLegends #pippenButton button {
     margin: 0px 40px 0px 30px;
 }
+
+/* Bulls Legends CSS */
+
+/* Bulls 2021 CSS */
+
+.deBallZach {
+    text-align: center;
+}
+
+.deBallZach button {
+    border: none;
+    margin: 0px 40px;
+    padding: 0px 0px;
+    background-color: transparent;
+    text-align: center;
+    height: 340px;
+    width: 340px;
+}
+
+.deBallZach button img {
+    height: 100%;
+    width: auto;
+}
+
+.deBallZach + .bullsLegends {
+    margin-bottom: 30px;
+}
+
+/* Bulls 2021 CSS */
