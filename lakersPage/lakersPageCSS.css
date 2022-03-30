@@ -18,3 +18,32 @@ html {
     filter: brightness(60%);
     
 }
+
+.lakersPieces {
+    
+    /* for horizontal scroll bar */
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 10%;
+    outline: transparent;
+}
+
+.lakersGoats button {
+    background-color: transparent;
+    outline: 0 !important;
+    padding: 0%;
+    border: 0%;
+}
+
+.lakersGoats button img{
+    border: none;
+    margin: 0% 0%;
+    padding: 0% 0%;
+    background-color: transparent;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
+
