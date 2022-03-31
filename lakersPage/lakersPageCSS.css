@@ -15,7 +15,9 @@ html {
 
     background-attachment: fixed;
 
-    filter: brightness(60%);
+    filter: brightness(50%);
+
+    overflow-x: hidden;
     
 }
 
@@ -26,24 +28,27 @@ html {
     overflow-x: auto;
     white-space: nowrap;
     position: absolute;
-    bottom: 10%;
-    outline: transparent;
+    bottom: 0%;
+    outline: none;
+    
 }
 
-.lakersGoats button {
+
+.lakersPieces button {
     background-color: transparent;
-    outline: 0 !important;
-    padding: 0%;
-    border: 0%;
+    outline: none;
+    padding: none;
+    border: none;
 }
 
-.lakersGoats button img{
+.lakersPieces button img{
     border: none;
     margin: 0% 0%;
     padding: 0% 0%;
     background-color: transparent;
     text-align: center;
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
+    filter: brightness(150%)
 }
 
