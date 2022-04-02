@@ -15,7 +15,7 @@ html {
 
     background-attachment: fixed;
 
-    filter: brightness(50%);
+    filter: brightness(60%);
 
     overflow-x: hidden;
     
@@ -25,6 +25,7 @@ html {
     
     /* for horizontal scroll bar */
     width: 100%;
+    overflow-y: hidden;
     overflow-x: auto;
     white-space: nowrap;
     position: absolute;
@@ -49,6 +50,5 @@ html {
     text-align: center;
     height: 350px;
     width: 350px;
-    filter: brightness(150%)
 }
 

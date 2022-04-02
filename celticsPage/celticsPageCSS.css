@@ -1,0 +1,22 @@
+html {
+
+    background-image: url("bostonBackground.png");
+
+    height: 100%;
+    width: 100%;
+
+    background-color: rgb(0, 0, 0);
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* always ensures background takes full screen */
+    background-size: 100% 100%;
+
+    background-attachment: fixed;
+
+    filter: brightness(120%);
+
+    overflow-x: hidden;
+    
+}

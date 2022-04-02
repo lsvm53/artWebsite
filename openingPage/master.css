@@ -18,3 +18,41 @@ body {
     }
 }
 
+.preloader {
+
+    /* with these 2 properties, preloader is on top of everything else */
+    position: fixed;
+    z-index: 99;
+
+    /* ensures that starting position is on top left corner of the window */
+    top: 0;
+    left: 0;
+
+    /* to ensure full width and full height */
+    height: 100%;
+    width: 100%;
+
+    /* black background */
+    background-color: black;
+
+    /* to center preloader */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.preloader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeOut {
+    
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+}
