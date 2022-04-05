@@ -39,7 +39,14 @@ body h1 {
     text-align: center;
     margin-top: 80px;
 }
-.bullsLegends button {
+
+
+.bullsPieces div {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.bullsPieces button {
     border: none;
     margin: 0px 40px;
     padding: 0px 0px;
@@ -103,3 +110,5 @@ body h1 {
 }
 
 /* Bulls 2021 CSS */
+
+
