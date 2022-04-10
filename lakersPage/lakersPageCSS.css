@@ -35,8 +35,8 @@ body {
     overflow-x: scroll;
     white-space: nowrap;
     position: fixed;
-    bottom: 0px;
-    left: 0px;
+    bottom: 0%;
+    left: 0%;
     outline: none;
     -webkit-overflow-scrolling:touch;
     
@@ -57,6 +57,7 @@ body {
     height: 100%;
     width: 20%;
     background-color: transparent;
+    border: none;
 }
 
 .lakersPieces button img{
@@ -70,15 +71,15 @@ body {
 
 }
 
-#wiltButton, #westButton {
-    margin-right: 80px;
+#wiltButton {
+    margin-right: 4%;
 }
 
 #lebronButton {
-    margin-right: 100px;
+    margin-right: 5%;
 }
 
 #lebronButton img{
-    width: 200px;
+    width: 60%;
 }
 
