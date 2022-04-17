@@ -20,105 +20,44 @@ html {
     
 }
 
-
-body h1 img{
-    width: 80%;
-    filter: brightness(180%);
+body {
+    height: 100%;
+    width: 100%;
 }
 
 body h1 {
     text-align: center;
 }
 
-/* HTML AND BODY CSS */
-
-
-/* Bulls Legends CSS */
-
-.bullsLegends {
-    text-align: center;
-    margin-top: 80px;
+body h1 img {
+    width: 80%;
+    filter: brightness(180%);
 }
 
+/* HTML AND BODY CSS */
+
+/* bullsPieces CSS */
+
+.bullsPieces {
+    height: fit-content;
+    text-align: center;
+}
 
 .bullsPieces div {
-    text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 
 .bullsPieces button {
-    border: none;
-    margin: 0px 40px;
-    padding: 0px 0px;
+    margin-right: 7%;
     background-color: transparent;
-    text-align: center;
-    height: 300px;
-    width: 300px;
+    border: none;
 }
 
 .bullsPieces button img {
     height: 100%;
-    width: auto;
 }
 
-.bullsLegends {
-    margin-bottom: 40px;
-}
+/* bullsPieces CSS */
 
-.bullsLegends #jordanButton img {
-    filter: brightness(150%);
-}
-
-.bullsLegends #rodmanButton button {
-    width: 450px;
-    margin: 0 0;
-}
-
-.bullsLegends #rodmanButton button img{
-    width: 100%;
-}
-
-.bullsLegends #pippenButton button {
-    margin: 0px 40px 0px 30px;
-}
-
-#jordan{
-    text-align: center;
-    height: 100%;
-    background-color: black;
-}
-
-/* Bulls Legends CSS */
-.bullsPieces a picture{ 
-    height: 100%;
-    background-color: black;
-}
-
-/* Bulls 2021 CSS */
-
-.deBallZach {
-    text-align: center;
-}
-
-.deBallZach button {
-    border: none;
-    margin: 0px 40px;
-    padding: 0px 0px;
-    background-color: transparent;
-    text-align: center;
-    height: 340px;
-    width: 340px;
-}
-
-.deBallZach button img {
-    height: 100%;
-    width: auto;
-}
-
-.deBallZach + .bullsLegends {
-    margin-bottom: 30px;
-}
-
-/* Bulls 2021 CSS */
-
+/* bullsLegends CSS */
 
