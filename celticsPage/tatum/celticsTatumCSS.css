@@ -1,0 +1,13 @@
+html {
+    background-color: black;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    text-align: center;
+}
+
+#tatumButton {
+    height: 100%;
+}
