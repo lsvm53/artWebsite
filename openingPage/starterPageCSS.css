@@ -48,6 +48,12 @@ button {
     border: none;
     padding-top: auto;
     background-color: transparent;
+    width: 20%;
+    text-align: center;
+}
+
+button img {
+    width: 100%;
 }
 
 
