@@ -68,25 +68,25 @@
             </a>
 
             <a href= "robertParish/celticsRobertParish.html" id="parishButton">
-                <button class="btn btn-default" onclick="alert('entered Robert Parish!!')"> 
+                <button class="btn btn-default"> 
                     <img src="celticsRobertParishButton.png" alt="A cool animated picture of Robert Parish">
                 </button>
             </a>
 
             <a href= "paulPierce/celticsPaulPierce.html" id="pierceButton">
-                <button class="btn btn-default" onclick="alert('entered paul pierce!!')"> 
+                <button class="btn btn-default"> 
                     <img src="celticsPaulPierceButton.png" alt="A cool animated picture of paul pierce">
                 </button>
             </a>
 
             <a href= "garnett/celticsGarnett.html" id="garnettButton">
-                <button class="btn btn-default" onclick="alert('entered Kevin Garnett!!')"> 
+                <button class="btn btn-default"> 
                     <img src="celticsGarnettButton.png" alt="A cool animated picture of Kevin Garnett">
                 </button>
             </a>
 
             <a href= "tatum/celticsTatum.html" id="tatumButton">
-                <button class="btn btn-default" onclick="alert('entered Jayson Tatum!!')"> 
+                <button class="btn btn-default"> 
                     <img src="celticsTatumButton.png" alt="A cool animated picture of Jayson Tatum">
                 </button>
             </a>
@@ -95,6 +95,17 @@
         </div>
 
 
+
+        <script>
+
+            const scrollContainer = document.querySelector('.celticsPieces');
+
+            scrollContainer.addEventListener('wheel', (evt) => {
+                evt.preventDefault();
+                scrollContainer.scrollLeft -= evt.deltaY;
+            });
+
+        </script>
 
     </body>
 

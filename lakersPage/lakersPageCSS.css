@@ -17,9 +17,12 @@ html {
 
     filter: brightness(60%);
 
+    overflow-y: hidden;
     overflow-x: hidden;
     
+    
 }
+
 
 body {
     height: 100%;
@@ -35,12 +38,46 @@ body {
     overflow-x: scroll;
     white-space: nowrap;
     position: fixed;
-    bottom: 0%;
+    bottom: 3%;
     left: 0%;
     outline: none;
-    -webkit-overflow-scrolling:touch;
+    text-align: justify;
+
     
 }
+
+.lakersPieces::-webkit-scrollbar {
+    background-color: #552583;
+    height: 20px;
+}
+
+.lakersPieces::-webkit-scrollbar-track {
+    background-color: #552583;
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+
+.lakersPieces::-webkit-scrollbar-thumb {
+    background-color: #fdb927;
+    border-radius: 100vw;
+    border: .15em solid #552583;
+}
+
+.lakersPieces::-webkit-scrollbar-thumb:hover {
+    background-color: #c08d20;
+}
+
+
+/* .lakersPieces::-webkit-scrollbar-button:single-button:horizontal:decrement {
+    border-width: 0 1% 1% 1%;
+    border-color: transparent transparent #FDB927 transparent;
+}
+
+.lakersPieces::-webkit-scrollbar-button:single-button:horizontal:increment {
+    border-width: 0 7% 7% 7%;
+    border-color: transparent transparent #FDB927 transparent;
+} */
+
 
 
 .lakersPieces a {

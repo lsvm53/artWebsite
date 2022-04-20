@@ -10,6 +10,27 @@
 
         <!-- link to bullsPage CSS -->
         <link rel="stylesheet" type="text/css" href="lakersPageCSS.css">
+
+        <!-- code for fixing storing scroll data -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script type="text/javascript">
+            if (window.performance && window.performance.navigation.type === window.performance.navigation.TYPE_BACK_FORWARD) {
+                if (localStorage.getItem("my_app_name_here-quote-scroll") != null) {
+                        $(window).scrollTop(localStorage.getItem("my_app_name_here-quote-scroll"));
+                    }
+                } else {
+                $(window).scrollTop();
+                }
+
+                window.addEventListener('beforeunload', function (e) {
+                        if (window.performance && window.performance.navigation.type === window.performance.navigation.TYPE_BACK_FORWARD) {
+                        localStorage.setItem("my_app_name_here-quote-scroll", $(window).scrollTop());
+                        } 
+            
+                });
+        </script>
     </head>
 
 
@@ -97,11 +118,18 @@
         </div>
 
 
+
         <script>
 
-            
-           
+            const scrollContainer = document.querySelector('.lakersPieces');
+
+            scrollContainer.addEventListener('wheel', (evt) => {
+                evt.preventDefault();
+                scrollContainer.scrollLeft -= evt.deltaY;
+            });
+
         </script>
+        
         
     </body>
 
