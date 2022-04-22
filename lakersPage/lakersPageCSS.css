@@ -29,7 +29,7 @@ body {
     width: 100%;
 }
 
-.lakersPieces {
+#lakersPieces {
     
     /* for horizontal scroll bar */
     width: 100%;
@@ -42,45 +42,44 @@ body {
     left: 0%;
     outline: none;
     text-align: justify;
-
     
 }
 
-.lakersPieces::-webkit-scrollbar {
+#lakersPieces::-webkit-scrollbar {
     background-color: #552583;
     height: 20px;
 }
 
-.lakersPieces::-webkit-scrollbar-track {
+#lakersPieces::-webkit-scrollbar-track {
     background-color: #552583;
     border-radius: 100vw;
     margin-block: .5em;
 }
 
-.lakersPieces::-webkit-scrollbar-thumb {
+#lakersPieces::-webkit-scrollbar-thumb {
     background-color: #fdb927;
     border-radius: 100vw;
     border: .15em solid #552583;
 }
 
-.lakersPieces::-webkit-scrollbar-thumb:hover {
+#lakersPieces::-webkit-scrollbar-thumb:hover {
     background-color: #c08d20;
 }
 
 
-/* .lakersPieces::-webkit-scrollbar-button:single-button:horizontal:decrement {
+/* #lakersPieces::-webkit-scrollbar-button:single-button:horizontal:decrement {
     border-width: 0 1% 1% 1%;
     border-color: transparent transparent #FDB927 transparent;
 }
 
-.lakersPieces::-webkit-scrollbar-button:single-button:horizontal:increment {
+#lakersPieces::-webkit-scrollbar-button:single-button:horizontal:increment {
     border-width: 0 7% 7% 7%;
     border-color: transparent transparent #FDB927 transparent;
 } */
 
 
 
-.lakersPieces a {
+#lakersPieces a {
     background-color: transparent;
     outline: none;
     padding: none;
@@ -90,14 +89,14 @@ body {
 
 }
 
-.lakersPieces button {
+#lakersPieces button {
     height: 100%;
     width: 20%;
     background-color: transparent;
     border: none;
 }
 
-.lakersPieces button img{
+#lakersPieces button img{
     border: none;
     margin: 0% 0%;
     padding: 0% 0%;
@@ -106,6 +105,10 @@ body {
     height: 100%;
     width: 100%;
 
+}
+
+#lebronButton button img {
+    width: 80%;
 }
 
 #wiltButton {
@@ -117,6 +120,6 @@ body {
 }
 
 #lebronButton img{
-    width: 60%;
+    width: 50%;
 }
 

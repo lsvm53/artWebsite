@@ -37,10 +37,12 @@
 
     <body>
 
-        
+            <button class="btn btn-default" onclick="printXShift()">
 
+            </button>
+    
         <!-- div for all the lakers buttons -->
-        <div class="lakersPieces">
+        <div id="lakersPieces">
 
         
             <!-- shaq button -->
@@ -119,14 +121,7 @@
 
 
 
-        <script>
-
-            const scrollContainer = document.querySelector('.lakersPieces');
-
-            scrollContainer.addEventListener('wheel', (evt) => {
-                evt.preventDefault();
-                scrollContainer.scrollLeft -= evt.deltaY;
-            });
+        <script src="../lakersPage/lakersPageJS.js">
 
         </script>
         
