@@ -15,32 +15,24 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-        <script type="text/javascript">
-            if (window.performance && window.performance.navigation.type === window.performance.navigation.TYPE_BACK_FORWARD) {
-                if (localStorage.getItem("my_app_name_here-quote-scroll") != null) {
-                        $(window).scrollTop(localStorage.getItem("my_app_name_here-quote-scroll"));
-                    }
-                } else {
-                $(window).scrollTop();
-                }
-
-                window.addEventListener('beforeunload', function (e) {
-                        if (window.performance && window.performance.navigation.type === window.performance.navigation.TYPE_BACK_FORWARD) {
-                        localStorage.setItem("my_app_name_here-quote-scroll", $(window).scrollTop());
-                        } 
-            
-                });
-        </script>
+        
     </head>
 
 
 
     <body>
 
-            <button class="btn btn-default" onclick="printXShift()">
 
-            </button>
-    
+        <!-- button for texting scroll functionality -->
+
+            <!-- <button class="btn btn-default" onclick="printXShift()">
+
+            </button> -->
+            
+        <!-- button for texting scroll functionality -->
+
+
+        
         <!-- div for all the lakers buttons -->
         <div id="lakersPieces">
 
@@ -121,7 +113,7 @@
 
 
 
-        <script src="../lakersPage/lakersPageJS.js">
+        <script type="text/javascript" src="../lakersPage/lakersPageJS.js">
 
         </script>
         

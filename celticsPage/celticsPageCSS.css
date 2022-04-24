@@ -24,10 +24,12 @@ html {
 
 body{
     height: 100%;
-    
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
 }
 
-.celticsPieces {
+#celticsPieces {
     
     /* for horizontal scroll bar */
     width: 100%;
@@ -35,37 +37,37 @@ body{
     overflow-y: hidden;
     overflow-x: scroll;
     white-space: nowrap;
-    position: fixed;
+    position: absolute;
     bottom: 3%;
     left: 0%;
     outline: none;
     
 }
 
-.celticsPieces::-webkit-scrollbar {
+#celticsPieces::-webkit-scrollbar {
     background-color: #ba9653;
     height: 20px;
     display: flex;
 }
 
-.celticsPieces::-webkit-scrollbar-track {
+#celticsPieces::-webkit-scrollbar-track {
     background-color: #796136;
     border-radius: 100vw;
     margin-block: .5em;
 }
 
-.celticsPieces::-webkit-scrollbar-thumb {
+#celticsPieces::-webkit-scrollbar-thumb {
     background-color: #007a33;
     border-radius: 100vw;
     border: .15em solid #796136;
 }
 
-.celticsPieces::-webkit-scrollbar-thumb:hover {
+#celticsPieces::-webkit-scrollbar-thumb:hover {
     background-color: #013d1a;
 }
 
 
-.celticsPieces button {
+#celticsPieces button {
     background-color: transparent;
     outline: none;
     padding: none;
@@ -74,7 +76,7 @@ body{
     width: 20%;
 }
 
-.celticsPieces button img{
+#celticsPieces button img{
     border: none;
     margin: 0% 0%;
     padding: 0% 0%;

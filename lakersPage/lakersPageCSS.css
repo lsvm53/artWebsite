@@ -27,6 +27,7 @@ html {
 body {
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 #lakersPieces {
@@ -37,7 +38,7 @@ body {
     overflow-y: hidden;
     overflow-x: scroll;
     white-space: nowrap;
-    position: fixed;
+    position: absolute;
     bottom: 3%;
     left: 0%;
     outline: none;

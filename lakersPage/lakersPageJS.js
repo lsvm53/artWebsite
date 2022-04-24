@@ -28,5 +28,13 @@ lakersPieces.addEventListener('scroll', () => {
 // test function for seeing if xChange stores xShift value
 
 // function printXShift() {
-//     console.log(xChange);
+//      console.log(xChange);
 // }
+
+window.addEventListener('beforeunload', function(event) {
+    this.localStorage.setItem("scrollPosition", xChange)
+})
+
+window.addEventListener('DOMContentLoaded', (event) => {  
+    $('#lakersPieces').scrollLeft(localStorage.getItem("scrollPosition")); 
+})
