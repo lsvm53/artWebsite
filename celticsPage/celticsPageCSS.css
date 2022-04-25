@@ -89,3 +89,50 @@ body{
 #garnettButton img {
     width: 70%;
 }
+
+
+@media (max-width: 600px) {
+
+    body{
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        text-align: center;
+    }
+
+    #celticsPieces {
+    
+        /* for horizontal scroll bar */
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        outline: none;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    #celticsPieces a {
+        height: 20%;
+        width: 20%;
+    }
+    #celticsPieces a button {
+        background-color: transparent;
+        outline: none;
+        padding: none;
+        border: none;
+        height: 100%;
+        width: 100%;
+    }
+
+    #celticsPieces a button img{
+        background-color: transparent;
+        outline: none;
+        padding: none;
+        border: none;
+        height: 100%;
+        width: 100%;
+    }
+
+    
+}
