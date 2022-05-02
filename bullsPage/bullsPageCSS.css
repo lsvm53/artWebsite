@@ -123,3 +123,60 @@ body h1 img {
     width: 80%;
 }
 
+@media (max-width: 600px) {
+
+
+    body{
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    #bulls {
+    
+        /* for horizontal scroll bar */
+        width: 70%;
+        height: 100%;
+        position: absolute;
+        outline: none;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    #bulls h1 {
+        width: 100%;
+    }
+
+    #bulls h1 img{
+        width: 100%;
+    }
+
+    #bulls a {
+        height: 33%;
+        width: 50%;
+    }
+    #bulls a button {
+        background-color: transparent;
+        outline: none;
+        padding: none;
+        border: none;
+        height: 100%;
+        width: 100%;
+    }
+
+    #bulls a button img{
+        background-color: transparent;
+        outline: none;
+        padding: none;
+        border: none;
+        height: 100%;
+        width: 100%;
+    }
+
+    
+}

@@ -16,10 +16,10 @@ var yChange = 0.0;
 bulls.addEventListener('scroll', () => {
     var yShift;
     
-    if ($(bulls.scrollLeft)[0] == undefined) {
+    if ($(bulls.scrollTop)[0] == undefined) {
         yShift = 0.0;
     } else {
-        yShift = $(bulls.scrollLeft)[0];
+        yShift = $(bulls.scrollTop)[0];
     }
     yChange = yShift;
 });
