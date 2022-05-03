@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    overflow-y: hidden;
 }
 
 body {
@@ -23,11 +24,7 @@ body {
 .container-fluid {
     height: 100%;
     text-align: center;
-    margin: auto;
-    display: flex;
-    justify-content: flex;
-    flex-direction: column;
-    top: 35%;
+    
 }
 
 h1 img {
