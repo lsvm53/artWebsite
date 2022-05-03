@@ -6,7 +6,7 @@ html {
 body {
     background-image: url("irunudumBackground.png");
 
-    height: 100%;
+    height: 90%;
     margin: 0%;
 
     background-position: center;
@@ -25,6 +25,10 @@ body {
     height: 100%;
     text-align: center;
     
+}
+
+h1 {
+    margin: 0%;
 }
 
 h1 img {
