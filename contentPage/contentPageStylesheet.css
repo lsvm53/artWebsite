@@ -72,6 +72,10 @@ h1 img {
     width: 100%;
 }
 
+#pistonAnchor img {
+    width: 80%;
+}
+
 #backgroundVideo {
     position: fixed;
     border: 0px transparent;
