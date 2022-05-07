@@ -109,7 +109,7 @@ body {
 }
 
 #lebronButton button img {
-    width: 80%;
+    width: 70%;
 }
 
 #wiltButton {
@@ -122,6 +122,10 @@ body {
 
 #lebronButton img{
     width: 50%;
+}
+
+#kobeShaq2Button a{
+    width: 40%;
 }
 
 @media (max-width: 600px) {
